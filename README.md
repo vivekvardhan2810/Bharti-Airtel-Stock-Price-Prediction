@@ -127,3 +127,20 @@ python src/xgb_model.py
 
 4. View the results and stock price prediction charts.
 
+## Stock Analysis Chart
+
+After running each model, the predictions are plotted against the actual stock prices to visualize the performance.
+
+## Future Improvements
+
+- Hyperparameter tuning for each model to improve prediction accuracy.
+
+- Experimenting with additional models such as Random Forest or Prophet.
+
+- Enhancing feature engineering by incorporating more stock indicators (e.g., Moving Averages, Bollinger Bands).
+
+- Implementing cross-validation for model robustness.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
