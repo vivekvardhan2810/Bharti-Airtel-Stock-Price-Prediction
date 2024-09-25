@@ -98,3 +98,32 @@ XGBoost is a powerful decision-tree-based model used for regression tasks.
 
 - Evaluation using Mean Squared Error (MSE)
 
+## Results
+
+The Mean Squared Error (MSE) for each model is printed during the evaluation step. Predictions are plotted against actual stock prices for comparison.
+
+## How to Run
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/bharti-airtel-stock-prediction.git
+```
+
+2. Install the required packages:
+
+```
+pip install -r requirements.txt
+```
+
+3. Run the scripts for each model:
+
+```
+python src/lstm_model.py
+python src/svm_model.py
+python src/knn_model.py
+python src/xgb_model.py
+```
+
+4. View the results and stock price prediction charts.
+
